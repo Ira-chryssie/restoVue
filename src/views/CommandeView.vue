@@ -17,27 +17,22 @@
       <div class="form-row">
         <div class="form-group">
           <label class="form-label">Nom *</label>
-          <input type="text" class="form-input" placeholder="DUPONT" v-model="client.nom">
+          <input type="text" class="form-input" placeholder="Votre nom" v-model="client.nom">
         </div>
         <div class="form-group">
           <label class="form-label">Prénom *</label>
-          <input type="text" class="form-input" placeholder="Jean" v-model="client.prenom">
+          <input type="text" class="form-input" placeholder="" v-model="client.prenom">
         </div>
       </div>
 
       <div class="form-group">
         <label class="form-label">Email *</label>
-        <input type="email" class="form-input" placeholder="jean.dupont@email.com" v-model="client.email">
+        <input type="email" class="form-input" placeholder="exemple@gmail.com" v-model="client.email">
       </div>
 
       <div class="form-group">
         <label class="form-label">Téléphone *</label>
-        <input type="tel" class="form-input" placeholder="+33 6 12 34 56 78" v-model="client.telephone">
-      </div>
-
-      <div class="form-group">
-        <label class="form-label">Instructions spéciales (optionnel)</label>
-        <input type="text" class="form-input" placeholder="Allergies, instructions..." v-model="client.instructions">
+        <input type="tel" class="form-input" placeholder="+257 ......." v-model="client.telephone">
       </div>
 
       <!-- Récapitulatif -->
