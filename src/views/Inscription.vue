@@ -18,7 +18,7 @@
             <input
               type="text"
               v-model="form.prenom"
-              placeholder="Marie"
+              placeholder="votre prénom"
               :class="{ error: errors.prenom }"
               @blur="validatePrenom"
             />
@@ -30,7 +30,7 @@
             <input
               type="text"
               v-model="form.nom"
-              placeholder="Dupont"
+              placeholder="votre nom"
               :class="{ error: errors.nom }"
               @blur="validateNom"
             />
@@ -88,7 +88,7 @@
           <input
             type="tel"
             v-model="form.tel"
-            placeholder="+33 6 00 00 00 00"
+            placeholder="+257 ......."
           />
         </div>
 
